@@ -43,3 +43,15 @@ query MyQuery {
   }
 `
 
+exports.createPages= async ({graphql,actions:{createPages}})=>{
+    
+    const query = await graphql(blogQuery)
+
+    createPages({
+        path : "/blogs",
+        component: require.resolve("./src/templates/blog-index.js"),
+        context: {
+            blogPosts: query.data.allSeamsCmsBlogpost.edges
+        },
+    })
+}
