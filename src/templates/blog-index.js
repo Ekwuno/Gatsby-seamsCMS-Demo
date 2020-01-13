@@ -6,10 +6,12 @@ const BlogIndex = ({ pageContext: { blogPosts } })  => (
         {blogPosts.map(blogPost =>(
             <>
                 <h4>Title:{blogPost.node.content.title.value}</h4>
+                
+        <h4>Author:{blogPost.node.content.author.value[0].content.name.value}</h4>
 
-                <h4>Author:{blogPost.node.author.value[0].content.name.value}</h4>
+                {/* <h4>Author:{blogPost?.node?.author?.value[0]?.content}</h4>  */}
 
-                <p>{blogPost.node.content.content.value}</p>
+                <p>{blogPost.node.content.content.value}</p> 
                 <hr/>
             </>
         )) }
