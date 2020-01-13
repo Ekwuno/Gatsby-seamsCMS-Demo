@@ -17,8 +17,8 @@ module.exports = {
       // Seams-CMS source plug
       resolve: 'seams-cms-gatsby-source',
       options: {
-        workspace: "f3AiQgXy",
-        apiKey: "37F00DCE8094EFA32624FA0FD75ED4831136D3C44803CD68A0E7471828F43D37",
+        workspace: `f3AiQgXy`,
+        apiKey: `A704FD1DBA420E8581CA42C9CFA60C5AF910CEE7B957BE40F77601E353B2AC90`,
         contentTypes: ['blogpost'],
       },
     },

@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 
-const BlogIndex =({pagecontext = {blogPosts}})=> (
+const BlogIndex = ({ pageContext: { blogPosts } })  => (
     <Layout>
         {blogPosts.map(blogPost =>(
             <>
