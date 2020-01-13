@@ -5,3 +5,41 @@
  */
 
 // You can delete this file if you're not using it
+
+const blogQuery = `
+query MyQuery {
+    allSeamsCmsBlogpost {
+      edges {
+        node {
+          content {
+            title {
+              value
+            }
+            content {
+              value
+            }
+            author {
+              value {
+                content {
+                  name {
+                    value
+                  }
+                }
+              }
+            }
+            categories {
+              value {
+                content {
+                  name {
+                    value
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`
+
