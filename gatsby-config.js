@@ -13,6 +13,15 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      // Seams-CMS source plug
+      resolve: 'seams-cms-gatsby-source',
+      options: {
+        workspace: "f3AiQgXy",
+        apiKey: "37F00DCE8094EFA32624FA0FD75ED4831136D3C44803CD68A0E7471828F43D37",
+        contentTypes: ['blogpost'],
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

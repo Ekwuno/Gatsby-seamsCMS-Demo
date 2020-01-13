@@ -10166,6 +10166,20 @@ scroll-behavior@^0.9.10:
     dom-helpers "^3.2.1"
     invariant "^2.2.2"
 
+seams-cms-gatsby-source@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/seams-cms-gatsby-source/-/seams-cms-gatsby-source-0.0.3.tgz#4766eb89137d11e08be32bc7e2acc053fc024d8c"
+  integrity sha512-ai/m5MTnaV/iqLbS8c3jzyo4R6/7seeYLP/KT0fnHJEqnW6tAuLps1SfPlSUMtz2WREzwIBDTE6jjwHKQ87gzw==
+  dependencies:
+    seams-cms-sdk "^0.0.2"
+
+seams-cms-sdk@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/seams-cms-sdk/-/seams-cms-sdk-0.0.2.tgz#13314d74a10f4ea37e7c905f88d4ab5c198a7e1d"
+  integrity sha512-1O60FPzx2D5aBid2aqOm3l0uSjbx2dOxdEttFCf6JHQPDY0RQIrRUcy9CIBbsxQH3VTq264dirXXcWoUJdTYhA==
+  dependencies:
+    axios "^0.19.0"
+
 seek-bzip@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/seek-bzip/-/seek-bzip-1.0.5.tgz#cfe917cb3d274bcffac792758af53173eb1fabdc"
